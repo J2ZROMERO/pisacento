@@ -1,0 +1,1201 @@
+{
+  "project": "Compas TypeScript starter",
+  "snapshot_date": "2026-11-01",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 222,
+      "sha256": "49be9ebffb8339032dc746b0e671b432cbb7772a0bbc65c89eeb4ff947837ead"
+    },
+    {
+      "path": ".node-version",
+      "bytes": 3,
+      "sha256": "f14b4987904bcb5814e4459a057ed4d20f58a633152288a761214dcd28780b56"
+    },
+    {
+      "path": "ANALISIS_SINCRONIA.md",
+      "bytes": 3109,
+      "sha256": "9196bb000036f9adf3a2acfe71df3eb48a4acb41f8bbefd9b57acadc4a2e2562"
+    },
+    {
+      "path": "analysis-worker.js",
+      "bytes": 5958,
+      "sha256": "bb100f9b66821235d505310e37bb5f191fec919fe15433161d4108aaf995217c"
+    },
+    {
+      "path": "analytics-config.js",
+      "bytes": 130,
+      "sha256": "3717da843b82c3c3f42e08bb0035a2c58011135dbb734bc44e80c8587559b54e"
+    },
+    {
+      "path": "analyzer-config.json",
+      "bytes": 171,
+      "sha256": "0dfc4e239f18e73581d3726c1a1f6df6b30fc7ce28c85c66f492f8c121b82da4"
+    },
+    {
+      "path": "app.js",
+      "bytes": 51463,
+      "sha256": "9c632b16d6a61f0e16d94415f500ee93c399ec791599111a3c65ea1d8b8d2fa7"
+    },
+    {
+      "path": "assets/pisacento-mark.svg",
+      "bytes": 436,
+      "sha256": "eb1b594aa7037b59b4c4be0decbe676bc5381bf65baa30f004e49f477f33038c"
+    },
+    {
+      "path": "bachata-data.js",
+      "bytes": 2814,
+      "sha256": "7a81138b920bab646640f5dbad0fa4b482e99363fbf28a686ef188a805d35ad6"
+    },
+    {
+      "path": "bachata-instrument-data.js",
+      "bytes": 2559,
+      "sha256": "b24c41b4c239b3a68a2b5ed081f45c8ccf263910bee3f6503381a537df804de8"
+    },
+    {
+      "path": "bachata-instrument-ui.js",
+      "bytes": 6575,
+      "sha256": "347671515f7813e66d835f5012b054c3687a71047b1ce6c161b042e2fac579e6"
+    },
+    {
+      "path": "bachata-instruments.js",
+      "bytes": 155,
+      "sha256": "00b9394d1c55dd26682d84366d63c7105106fb7a789fae162be609ec17a7ba4b"
+    },
+    {
+      "path": "beat-timeline.js",
+      "bytes": 1441,
+      "sha256": "30cfe58e63e20acebed0cb9e20a3ed20ae76de45a59e995ac0d3692b25584661"
+    },
+    {
+      "path": "benchmark/api-real-result.json",
+      "bytes": 8299,
+      "sha256": "69b88180213c37f16f86df470dc25200c85996c72b39e018f8e59f3d2b270a12"
+    },
+    {
+      "path": "benchmark/baseline.cjs",
+      "bytes": 249,
+      "sha256": "599996504e22ea217cf707ea03d71331111a1ea51e440dfa31b34f8d997372ed"
+    },
+    {
+      "path": "benchmark/beat_this_inference_reference.py",
+      "bytes": 12781,
+      "sha256": "ccccff4665399b931ebf181b73d264a6ad64fc1fe8acb4d3b950df825c47ce2d"
+    },
+    {
+      "path": "benchmark/beat_this_test_reference.py",
+      "bytes": 684,
+      "sha256": "3f7d53490d8271a3e8d1d5e2f9815d24c990713e28b408df229584f22c99cc0a"
+    },
+    {
+      "path": "benchmark/compare.py",
+      "bytes": 3198,
+      "sha256": "f324f88797f941933eeaa7b7a82c45e5c51d737f6189388563dd7ec8b9d8370b"
+    },
+    {
+      "path": "benchmark/generate_cases.py",
+      "bytes": 2225,
+      "sha256": "92d54917dae2fe46edcaca26a29ebb84de7e6830cc2502623db0b562f0b6ab93"
+    },
+    {
+      "path": "benchmark/results-with-hybrid.json",
+      "bytes": 130071,
+      "sha256": "2e8d6eaf3631825c037deba9162a27ad70d045a47618f406761c80caa7c303e9"
+    },
+    {
+      "path": "benchmark/results.json",
+      "bytes": 79064,
+      "sha256": "1c3db2a95d2f9d85f063009d360b5d8f19ae78ef0f055d381389fba3199948d4"
+    },
+    {
+      "path": "benchmark/summarize.py",
+      "bytes": 1623,
+      "sha256": "e8053013ea3d241e7490b8ce13883009da73a5ccff6aa18d4dedff5bb43bb00a"
+    },
+    {
+      "path": "benchmark/summary.json",
+      "bytes": 1430,
+      "sha256": "129f759504557f2f98180c8c05f92b04821e77bef3f5b760e00366bde68fd4a1"
+    },
+    {
+      "path": "COMPARACION_MOTORES.md",
+      "bytes": 4913,
+      "sha256": "5880353502a97620b0ea0afe84d20b24115d93a8ab601b28b498e99d404c013f"
+    },
+    {
+      "path": "dist/_headers",
+      "bytes": 88,
+      "sha256": "7adfc9d081df47326b338a222a5b2cc931d6dcafd75581391fe36380ca40a1ca"
+    },
+    {
+      "path": "dist/analysis-worker.js",
+      "bytes": 5958,
+      "sha256": "bb100f9b66821235d505310e37bb5f191fec919fe15433161d4108aaf995217c"
+    },
+    {
+      "path": "dist/analytics-config.js",
+      "bytes": 130,
+      "sha256": "3717da843b82c3c3f42e08bb0035a2c58011135dbb734bc44e80c8587559b54e"
+    },
+    {
+      "path": "dist/app.js",
+      "bytes": 51463,
+      "sha256": "9c632b16d6a61f0e16d94415f500ee93c399ec791599111a3c65ea1d8b8d2fa7"
+    },
+    {
+      "path": "dist/ASSET_CREDITS.txt",
+      "bytes": 247,
+      "sha256": "b4e875dcd385f28b4d3240bfc89d6cbb9a74f444c2b8eecc40326c311fdbaddd"
+    },
+    {
+      "path": "dist/assets/pisacento-mark.svg",
+      "bytes": 436,
+      "sha256": "eb1b594aa7037b59b4c4be0decbe676bc5381bf65baa30f004e49f477f33038c"
+    },
+    {
+      "path": "dist/beat-timeline.js",
+      "bytes": 1390,
+      "sha256": "3579e189badd432e8bc1b1b71ae566061c2f5bbcce80ca5c24cd53f62b9dbd83"
+    },
+    {
+      "path": "dist/evidence-data.js",
+      "bytes": 4386,
+      "sha256": "dba89446de439dea5af9988e9239778449f1d1bb6876499400e7af75b629e9f7"
+    },
+    {
+      "path": "dist/evidence-ui.js",
+      "bytes": 4326,
+      "sha256": "90bc26fb277105440acfe8d20bb34aa736f1e3d364570e479a9aa57c38c245ca"
+    },
+    {
+      "path": "dist/foot-count-labels.js",
+      "bytes": 2520,
+      "sha256": "499a90e2ea01cc3dc25058030b11072246ccb0e681bd4f6482f704988042cd95"
+    },
+    {
+      "path": "dist/footwork.js",
+      "bytes": 1914,
+      "sha256": "4d12f560adfb4f92de707344aa4b1efaabe3a3eec2d61a9439bb7f709858d324"
+    },
+    {
+      "path": "dist/genre-home.js",
+      "bytes": 959,
+      "sha256": "54ad84b5407e31a17b9bd7eca559456b9f0aedeb5a6a36b97f7e430f03232a38"
+    },
+    {
+      "path": "dist/genres.css",
+      "bytes": 4438,
+      "sha256": "281bff5a8c4a34992ab096d382696b28ec93d3102275ab166ab39add2db84c03"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 30806,
+      "sha256": "4bbad86c22aff24f7b1a2837f2e586ed8d148100ddfa101ada850f2e5b8f949c"
+    },
+    {
+      "path": "dist/instrument-samples.js",
+      "bytes": 2679,
+      "sha256": "264e12357bb3e1a8daa151cda474d6cb8534e36272b83ba0ae4ae1d6396934c3"
+    },
+    {
+      "path": "dist/learning-layout.js",
+      "bytes": 8004,
+      "sha256": "a205b1286534ba19ef825d64acfe5eda8e767d8e44c348e84c54e078819f013c"
+    },
+    {
+      "path": "dist/learning-path.js",
+      "bytes": 14977,
+      "sha256": "82a21d4d586ad1ed6923ac89666b326c0c79691b9f06e15985be9fa284deec4e"
+    },
+    {
+      "path": "dist/mix-controls.js",
+      "bytes": 7352,
+      "sha256": "3997625b3244da1d9fc740446c32642f42efda89ff4cc6ba0c5b8f216f8d59f3"
+    },
+    {
+      "path": "dist/practice-data.js",
+      "bytes": 5337,
+      "sha256": "9d3ac71eb01676d3962aa88aeb70795f34462971139a66eef2f7e73adf228ca3"
+    },
+    {
+      "path": "dist/responsive-layout.js",
+      "bytes": 873,
+      "sha256": "82ed607e3bb63cc6da950bc4107fd5226a43d8b443b091a6ebd29cbd0c75335f"
+    },
+    {
+      "path": "dist/responsive.css",
+      "bytes": 8811,
+      "sha256": "a59294e3b35bde37bec671bd3aa6a38ed538509921d57f927b5741ef6c71582e"
+    },
+    {
+      "path": "dist/rhythm-practice.js",
+      "bytes": 20166,
+      "sha256": "685cc7855eea5db465d2887a2a784577814f2691f7aa7e5bb273ce742307ac24"
+    },
+    {
+      "path": "dist/salsa-layers.js",
+      "bytes": 4679,
+      "sha256": "e9d6d83cc217ab9572e7afe17c7df172225d3626ec854a320c212b9f7af7d374"
+    },
+    {
+      "path": "dist/samples/clave.wav",
+      "bytes": 191812,
+      "sha256": "bcabe27330761309eb4b4f6207e6e3b4be59815df86449ac05bfb9b81f19efc9"
+    },
+    {
+      "path": "dist/samples/conga-open.wav",
+      "bytes": 231124,
+      "sha256": "664365ac735d819c69cabbbae8a78d225fa73059e698ad8ca292c46cc03c6961"
+    },
+    {
+      "path": "dist/samples/cowbell.wav",
+      "bytes": 174968,
+      "sha256": "d1f89cb17fe60091deca7ae689009ff03ed79b061b74cd3f6ef5373b5999612c"
+    },
+    {
+      "path": "dist/samples/manifest.json",
+      "bytes": 1062,
+      "sha256": "3735e5deefccfed66071cd553370f4edc005a88b0ae45f6d80f87845021ebde1"
+    },
+    {
+      "path": "dist/samples/VCSL-LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "path": "dist/selection-analytics.js",
+      "bytes": 2841,
+      "sha256": "3d006f2812bb2954f6168c7c5464c2d2b37e959ca6850566ae6b6da101484cac"
+    },
+    {
+      "path": "dist/style.css",
+      "bytes": 42617,
+      "sha256": "fc4a612bbb8488805c4f001cecfb017d869d91638d266187150fa89c2899217d"
+    },
+    {
+      "path": "dist/unified-feet.js",
+      "bytes": 3575,
+      "sha256": "04dd09db35c17a15aa0cb9310cf094557c27fb08edf71ecc9f8e9e489fcc2572"
+    },
+    {
+      "path": "dist/view-components.js",
+      "bytes": 1039,
+      "sha256": "242add8487cfbc17b8a9846bf51a378a5716dc50262b75ea3365735374ff4b32"
+    },
+    {
+      "path": "dist/workshop.css",
+      "bytes": 9504,
+      "sha256": "03e1dae43e5ca1423619d4543aed716ca0a3f7f9dd83ce6b97acfaf61a3d2fb4"
+    },
+    {
+      "path": "docs/ANALYTICS.md",
+      "bytes": 2067,
+      "sha256": "1c7e8d5a101c6947d352e9554ff0d7a12afd1c6043831b776920bb575b4eaa29"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 5221,
+      "sha256": "ba6a413bc5de1b380e8a5a4552bd9ed6b087219537d5fb30a36c4384e7a09b59"
+    },
+    {
+      "path": "docs/ASSETS.md",
+      "bytes": 1540,
+      "sha256": "4750cebad9a7ec4e2cfefd427c0760bfc6dba115a77ea5fe86bb505a2bf27e19"
+    },
+    {
+      "path": "docs/AUDITORIA_IDENTIDAD.md",
+      "bytes": 3635,
+      "sha256": "9b4f6ee025e0aa65a5a17523af28d01de8b4685fb74e76350a1b74c9b30a71fe"
+    },
+    {
+      "path": "docs/CLOUDFLARE.md",
+      "bytes": 3410,
+      "sha256": "de8dee7cdeedad4c6823c3d48e5e28a2e7c077631fbb504d78240332b840129a"
+    },
+    {
+      "path": "docs/DECISIONS.md",
+      "bytes": 3669,
+      "sha256": "fd2ddefec670a55dffd85bb6b7841db0d4e6235c7b81b7e5c733f5c306180b6f"
+    },
+    {
+      "path": "docs/DEVELOPMENT.md",
+      "bytes": 3331,
+      "sha256": "6fe672e097caa758aee45f123ad73ef6d6544cd94bed559e0a9b964d0aea05e0"
+    },
+    {
+      "path": "docs/EXPORT.md",
+      "bytes": 1615,
+      "sha256": "2375d3b89a1681f4f89b82852088da4c71e475d3590f85081c904edcf8b12001"
+    },
+    {
+      "path": "docs/FUENTES_MUSICALIDAD.md",
+      "bytes": 2755,
+      "sha256": "9c7fe1da6bcf6ca76479c4a216e0ec02e80a0d6aa05baa00cb2f2e0031162dba"
+    },
+    {
+      "path": "docs/history/README-original.md",
+      "bytes": 17675,
+      "sha256": "1dea7e62b7d66cf83fcd9812d6bcfafcb45e16db98e4408a1e98ccf75c7ce0f7"
+    },
+    {
+      "path": "docs/PRODUCT.md",
+      "bytes": 2243,
+      "sha256": "c10e0aa524694bc4ccfa8d077b89167fc0016794a6116bd49945c3d7182150f7"
+    },
+    {
+      "path": "docs/screenshots/analisis-automatico-previo.png",
+      "bytes": 63628,
+      "sha256": "9360e298cf285f726bad85d287dac3b855aeb443e1bc3462286b7aa19849ab41"
+    },
+    {
+      "path": "docs/screenshots/analisis-completo.png",
+      "bytes": 65220,
+      "sha256": "d2882dd1d439ff21f9ecb69048beff83a89070e01d5c8148506338b8a4d8b930"
+    },
+    {
+      "path": "docs/screenshots/ayudas-principiantes.png",
+      "bytes": 60755,
+      "sha256": "dcefe41d55e4c6880f8c3e7974bf6f09e8a5419be175c41558c69cd4dc6568d2"
+    },
+    {
+      "path": "docs/screenshots/bachata-instrumentos-reales.png",
+      "bytes": 58972,
+      "sha256": "9961e787908b016dacd56637f89d0b82013f46ef7ad1d1ca4332988c6e4cc95d"
+    },
+    {
+      "path": "docs/screenshots/bpm-automatico.png",
+      "bytes": 81996,
+      "sha256": "94c66975e0920e7597fb55e32bb787a0bd211ad4cf3083f0807e18e01552dabe"
+    },
+    {
+      "path": "docs/screenshots/buscador-internet.png",
+      "bytes": 70089,
+      "sha256": "d8d5cdfd7ddd23dedc55eb0607e7be6fb60507e023dd8591b361d2ae39a650f2"
+    },
+    {
+      "path": "docs/screenshots/cambios-irregularidades.png",
+      "bytes": 71754,
+      "sha256": "b082b5699cb573573c582f0ce1a1938f8f1f862dabe4d88db57e431d6aa766dc"
+    },
+    {
+      "path": "docs/screenshots/campana-corregida.png",
+      "bytes": 56465,
+      "sha256": "7fefb9aed793553d515c5f305692b616b485cafe82b1c5b9a57ef975c939ae3d"
+    },
+    {
+      "path": "docs/screenshots/campana-pisadas-on2.png",
+      "bytes": 71699,
+      "sha256": "cdd34b2e699585f56feeb6c7855331242893551dae6404fe96735439bfb0eb52"
+    },
+    {
+      "path": "docs/screenshots/contenido-fuentes-expertos.png",
+      "bytes": 44677,
+      "sha256": "088cd0b64987923ba27c758400b99b41ca7c76586cf5903e7efdef57260528c7"
+    },
+    {
+      "path": "docs/screenshots/count-basics-only.png",
+      "bytes": 36920,
+      "sha256": "0c931bbaf1e42beffc6b1eab06315e984255be91a5d7107fe567ac190713389e"
+    },
+    {
+      "path": "docs/screenshots/estado-sincronia.png",
+      "bytes": 72935,
+      "sha256": "bf567962598363b6bc485635dc82378a6f5fb1512e66c9897a6d0c1e31712ca8"
+    },
+    {
+      "path": "docs/screenshots/evidencia-sonidos-pisadas.png",
+      "bytes": 52432,
+      "sha256": "78a272f14cefc0607ed9d01966dfd183a7b301a8366bdadb314898d1f418c1e4"
+    },
+    {
+      "path": "docs/screenshots/filtros-instrumentos.png",
+      "bytes": 64793,
+      "sha256": "2a2241839f3ac137ec95b26a765340fa53645ed013d72564aac351ff5a1875c5"
+    },
+    {
+      "path": "docs/screenshots/foot-count-label-switch.png",
+      "bytes": 49280,
+      "sha256": "8bb9b1d67de51f497696b6c2cb5ce8f0c298546b4875f9e320b5ab17ecabcbf4"
+    },
+    {
+      "path": "docs/screenshots/free-navigation-bottom.png",
+      "bytes": 32423,
+      "sha256": "71844e3c57c31a57244855040d04ab7180f1ecf84a3c2e51548331e4e2231c0b"
+    },
+    {
+      "path": "docs/screenshots/inicio-salsa-bachata.png",
+      "bytes": 51189,
+      "sha256": "6240eb30a893754d60f8b64b54e80178e134bb56e4d47f0de0305e230c0f2321"
+    },
+    {
+      "path": "docs/screenshots/instrumentos-en-matriz.png",
+      "bytes": 72011,
+      "sha256": "d3a8c712ee0384cdbf81989adf807b62764ef41cc0260e8bb40421751144730f"
+    },
+    {
+      "path": "docs/screenshots/instrumentos-grabados.png",
+      "bytes": 68197,
+      "sha256": "a3efd231ef35802bc70a9911bdfa749fb92a7538a213bb9df3dbe306f7c057b0"
+    },
+    {
+      "path": "docs/screenshots/instrumentos-y-voz.png",
+      "bytes": 70051,
+      "sha256": "3f9650770731b31d5f3c92573b657769fe4fbfe0fc4b36b84daab9dd33b5da48"
+    },
+    {
+      "path": "docs/screenshots/interfaz-ruta-clara.png",
+      "bytes": 67273,
+      "sha256": "290842194063ac8d872d1144714173a3ef2199b625ccb0c3538c1175f7f76df6"
+    },
+    {
+      "path": "docs/screenshots/modalidad-y-rol.png",
+      "bytes": 87471,
+      "sha256": "a097e0b86d645448d533b79177c5247d9aff2cb845488c314194510daf3b022b"
+    },
+    {
+      "path": "docs/screenshots/motor-seleccionado.png",
+      "bytes": 18875,
+      "sha256": "4830a02735424f8029379d0f0b511c8c5c0dea326793acacda6542aa6d5bb0fc"
+    },
+    {
+      "path": "docs/screenshots/musical-text-only.png",
+      "bytes": 44094,
+      "sha256": "9d664f75bbc81752e2e2c11eba41a9e7861c11bda7fff787f4869d64a45720aa"
+    },
+    {
+      "path": "docs/screenshots/musician-perspective.png",
+      "bytes": 40483,
+      "sha256": "915a34cd45cf8dbc89aa5165bcc7eb08a73a4fc4d6b3a0f630ae95aa2793c360"
+    },
+    {
+      "path": "docs/screenshots/on1-on2.png",
+      "bytes": 55088,
+      "sha256": "2c4b756f860d7b601f7e0f100ac639c0301d188550b1da36193c9790206cbc12"
+    },
+    {
+      "path": "docs/screenshots/opciones-desplegables.png",
+      "bytes": 67944,
+      "sha256": "8c3c914ad7677e6740a38992acdcb3173242749086937d85c06935537c815d55"
+    },
+    {
+      "path": "docs/screenshots/pareja-frente-a-frente.png",
+      "bytes": 62303,
+      "sha256": "894b77bf11738613358c6d8698fe7b1afa849cef17b11ada66e5eead7bf0828f"
+    },
+    {
+      "path": "docs/screenshots/pasos-para-clave.png",
+      "bytes": 67679,
+      "sha256": "9cc6dbd70c92ec533569681fc0feda039b49d529722d6e3a32ee6051fbf43582"
+    },
+    {
+      "path": "docs/screenshots/pies-animados.png",
+      "bytes": 64667,
+      "sha256": "b1ac745aca52ed444cfebffea9f0efdf31392aae4f64a5d1df37c007d90c07a9"
+    },
+    {
+      "path": "docs/screenshots/pies-tiempo-3.png",
+      "bytes": 64875,
+      "sha256": "06dbc7fa91a07885359abfff0f29dac1d2bbe9eba1fea4c503918efcc317f8de"
+    },
+    {
+      "path": "docs/screenshots/pies-vista-unica.png",
+      "bytes": 55877,
+      "sha256": "a812a581b831e6d913f29c881e340c6735dfa06eb704aeff04e56e9fe61db8ae"
+    },
+    {
+      "path": "docs/screenshots/pisacento-identity.png",
+      "bytes": 57967,
+      "sha256": "98cf50cf69d9611f04fbfc1c149ba04f301c82f2dabb02c4480c676bb4eadc2b"
+    },
+    {
+      "path": "docs/screenshots/pisacento-workshop.png",
+      "bytes": 61160,
+      "sha256": "9d1336de8f427f8f41c67fb5036a50f027ed85aea2c58de0ea86b0ec224f2e67"
+    },
+    {
+      "path": "docs/screenshots/practica-ritmos-pies.png",
+      "bytes": 65359,
+      "sha256": "f44ce67cdaa46fccc55f595b04b5fd9fb23c390f556c545eb5d683fb1f213562"
+    },
+    {
+      "path": "docs/screenshots/recursos-separados.png",
+      "bytes": 51886,
+      "sha256": "dfc1e8b38a27673e212b86ec919cffc8243296d4f5c40a8ac7ffd063b2d7c338"
+    },
+    {
+      "path": "docs/screenshots/referencias-trayectoria.png",
+      "bytes": 85427,
+      "sha256": "71b19c181596832a16beded86d7fef6cdec1ec5952b41b28623e42091e6c2864"
+    },
+    {
+      "path": "docs/screenshots/reproduccion-aviso.png",
+      "bytes": 72314,
+      "sha256": "93630fac8bf0276847e55000d32c66d71b9b813c3c4c75f708c48bded8a8a999"
+    },
+    {
+      "path": "docs/screenshots/responsive-mobile.png",
+      "bytes": 35611,
+      "sha256": "a2174ff5b461ac9bd315a875a3c1ab54c3c6b74176d2a2a32503f1422a0abc5a"
+    },
+    {
+      "path": "docs/screenshots/responsive-pies-mobile.png",
+      "bytes": 36079,
+      "sha256": "16a20b4c99b2b5e7ebc4e6409fa586254ab40d79719c07188371246cd6612bbd"
+    },
+    {
+      "path": "docs/screenshots/roadmap-visual.png",
+      "bytes": 84061,
+      "sha256": "46b95653d98727ebd4e25c000ced518ff3188f420f86789edf9f318233c3732c"
+    },
+    {
+      "path": "docs/screenshots/rutas-on1-on2.png",
+      "bytes": 64757,
+      "sha256": "eea5401d7292bfde527dfb891c2a78667376333bfe6ee2ca54fa8c4ab63eac36"
+    },
+    {
+      "path": "docs/screenshots/salsa-count-only.png",
+      "bytes": 62471,
+      "sha256": "c10e3220a7e0a0cf1545e7dae8bcabcfddf36c49d8f2dd6dbc1f71e1c5fcf7de"
+    },
+    {
+      "path": "docs/screenshots/salsa-four-stage-route.png",
+      "bytes": 39180,
+      "sha256": "5445ecbcde86ba61e2a8a9384a7764a838d5efcde43eea1a30a9a100ef182f49"
+    },
+    {
+      "path": "docs/screenshots/selector-instrumentos-visible.png",
+      "bytes": 78984,
+      "sha256": "2686ed7c550932c3d94f2ecf9c36f40b4c72f594cb26a6fc0c6ce0a12ecb34e7"
+    },
+    {
+      "path": "docs/screenshots/technical-timing-names.png",
+      "bytes": 67706,
+      "sha256": "f008ad7cb187ba434e0078f492c30b1b3bde0b1cec052b0fb36851c81dee4ff1"
+    },
+    {
+      "path": "docs/screenshots/video-internet-integrado.png",
+      "bytes": 80118,
+      "sha256": "a79c42bbda2860a93567cd19459baa067624b49a58c18982c2a1de0b15e2fd1b"
+    },
+    {
+      "path": "docs/screenshots/videoteca.png",
+      "bytes": 84728,
+      "sha256": "f3b8bb07a4702186b786ddb3559a21666f6e5ef95e8c71c6c8630c5cd4f310c7"
+    },
+    {
+      "path": "docs/screenshots/view-dry-cleanup.png",
+      "bytes": 73599,
+      "sha256": "3adcde6b934262883fe180bb0a600f1f4f388d427dabf3e8ba6df62937e2a4e8"
+    },
+    {
+      "path": "docs/screenshots/vista-previa.png",
+      "bytes": 56206,
+      "sha256": "26cdbd45f0594bd1c6650eca333c62ced901bb4dd4a4eb1dfeea108facd756f1"
+    },
+    {
+      "path": "docs/TYPESCRIPT.md",
+      "bytes": 3378,
+      "sha256": "151491b5a3efbc8989c923c4f8885ec9b9b78d4a416d3353f8e904a00a23b134"
+    },
+    {
+      "path": "docs/UX_AND_AUDIENCE.md",
+      "bytes": 6678,
+      "sha256": "3de80bd07a56b18a294e6d0ccd56bf945d593c7cc795b0b5f8acb9c0620c0074"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 2687,
+      "sha256": "9fbe20c2b63ffab2a86c0ea694a2de8df252c5f5a2497e3da682bcca7c9c857a"
+    },
+    {
+      "path": "evidence-data.js",
+      "bytes": 4386,
+      "sha256": "dba89446de439dea5af9988e9239778449f1d1bb6876499400e7af75b629e9f7"
+    },
+    {
+      "path": "evidence-ui.js",
+      "bytes": 4326,
+      "sha256": "90bc26fb277105440acfe8d20bb34aa736f1e3d364570e479a9aa57c38c245ca"
+    },
+    {
+      "path": "expert-content.js",
+      "bytes": 10071,
+      "sha256": "f80a00fedb9cf9e860f2d67c24e8ee4ded6715fa652189ee1055bb4d9baa8c0f"
+    },
+    {
+      "path": "foot-count-labels.js",
+      "bytes": 2575,
+      "sha256": "47c09feb792f198778c1f6be013ac575ddd38eecf18b1f9a2971a6b33f7b7dfe"
+    },
+    {
+      "path": "footwork.js",
+      "bytes": 1960,
+      "sha256": "531efb1c2261433b18b87e970498e0ac7cf8eb4a18811d7c0136a2f99df75a7e"
+    },
+    {
+      "path": "FUENTES_BACHATA.md",
+      "bytes": 3543,
+      "sha256": "d3e5868575e24b2e36fef754a57987ec2082eda62c2e79486617b384101b23e6"
+    },
+    {
+      "path": "FUENTES_PRACTICA.md",
+      "bytes": 10122,
+      "sha256": "35da6d3640753289e2927c4df169942a009482f7cf9b45a90a7c301e7e6acf71"
+    },
+    {
+      "path": "generated/bachata-data.d.ts",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "generated/bachata-data.js",
+      "bytes": 2737,
+      "sha256": "d265165362bfcea40d8f184f896f1472c29ed80822b34cb5d82330381dc17022"
+    },
+    {
+      "path": "generated/bachata-data.js.map",
+      "bytes": 1802,
+      "sha256": "59cc762b584f0579092a322706b2a02d5cbe6f3ba7cbe3a66b1c29944a5fdfce"
+    },
+    {
+      "path": "generated/bachata-instrument-data.d.ts",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "generated/bachata-instrument-data.js",
+      "bytes": 2471,
+      "sha256": "db58ec2eb79e336913740981e1c939843c459f0a7908158ce3966f889e116c02"
+    },
+    {
+      "path": "generated/bachata-instrument-data.js.map",
+      "bytes": 2413,
+      "sha256": "92fcbf7e440e582dc524f028de9a397d26fe80a125a44ca07bcf596d48a8d239"
+    },
+    {
+      "path": "generated/bachata-instrument-ui.d.ts",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "generated/bachata-instrument-ui.js",
+      "bytes": 6489,
+      "sha256": "4318d1b2223e9804c979effcf6ad08eb453320720e12705b437d460bd90904c2"
+    },
+    {
+      "path": "generated/bachata-instrument-ui.js.map",
+      "bytes": 4765,
+      "sha256": "311896d3f41e30f4a41eb88b8da44559a10222d1e928363042b65a605b51de93"
+    },
+    {
+      "path": "generated/beat-timeline.d.ts",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "generated/beat-timeline.js",
+      "bytes": 1363,
+      "sha256": "1dbcdbb336b3ae5a2cd751d42e3a5a05b49d1fa401ef09ea79075f50bc4a94c1"
+    },
+    {
+      "path": "generated/beat-timeline.js.map",
+      "bytes": 1998,
+      "sha256": "a66342157597164c63909a814660c919b4284eddb9b862626a7d31c4e084088e"
+    },
+    {
+      "path": "generated/foot-count-labels.d.ts",
+      "bytes": 185,
+      "sha256": "58321e99d90373537302e685c92eed3601388a009b9eeee3250b154dcdc1d76c"
+    },
+    {
+      "path": "generated/foot-count-labels.js",
+      "bytes": 2493,
+      "sha256": "3a79c35a7517d863439ba3494dd9a686e9cb10eece2abb0defd28b83c48462f6"
+    },
+    {
+      "path": "generated/foot-count-labels.js.map",
+      "bytes": 1785,
+      "sha256": "c0dde1e034e1c9d1393a8f78f825fb3df7c69e0ea81d9f7460c42dc59123a152"
+    },
+    {
+      "path": "generated/footwork.d.ts",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "generated/footwork.js",
+      "bytes": 1887,
+      "sha256": "5f39d5902536dcbc2ae3fc9cb5c8d6faeba8bb58ec3e15aba74d17054a30c302"
+    },
+    {
+      "path": "generated/footwork.js.map",
+      "bytes": 2696,
+      "sha256": "9c0e993766e2ced7eeb2e065e026c730dfa1da1f4015a164df34a4476d03bd7a"
+    },
+    {
+      "path": "generated/genre-home.d.ts",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "generated/genre-home.js",
+      "bytes": 932,
+      "sha256": "9445bfca4d22e0a9637c5eeceaa8327b4be8438634f3ec813614d0efd64e5159"
+    },
+    {
+      "path": "generated/genre-home.js.map",
+      "bytes": 1041,
+      "sha256": "711c41dd3546662f36e1589d8134fbd3161e7f07db9b223a59966bd28f656de3"
+    },
+    {
+      "path": "generated/musician-perspective.d.ts",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "generated/musician-perspective.js",
+      "bytes": 4036,
+      "sha256": "699ba96d58671b096b2d47fdf8b2cbbc59da0d18f9640af2c6b361168e6f8307"
+    },
+    {
+      "path": "generated/musician-perspective.js.map",
+      "bytes": 1158,
+      "sha256": "f6dd221da62ffdc4cd8c16d85c02c0c55cf1a025c5a544ac2a74eb7718ed6d09"
+    },
+    {
+      "path": "generated/selection-analytics.d.ts",
+      "bytes": 121,
+      "sha256": "2a076d4fa184969f3f33fdc3b3e7b8bc231e9574611b199535aef9732a874c8c"
+    },
+    {
+      "path": "generated/selection-analytics.js",
+      "bytes": 2814,
+      "sha256": "4c9eff0608ca58ea7853306d71a362de39b81ff09a4f54f4470c81947f743c0d"
+    },
+    {
+      "path": "generated/selection-analytics.js.map",
+      "bytes": 2789,
+      "sha256": "a858bbf38ed8703fc71d5c4aaa8c77688ce3362044a51607bf4ca358511b1600"
+    },
+    {
+      "path": "generated/view-components.d.ts",
+      "bytes": 307,
+      "sha256": "92b94c2103807123f5483dd88358d09b611e16f038c0b8baa83f2623ca0f6f2b"
+    },
+    {
+      "path": "generated/view-components.js",
+      "bytes": 1012,
+      "sha256": "17b4f748fa7566acf52f738097296d316ba684fa3bb473907737f496e9fde7fd"
+    },
+    {
+      "path": "generated/view-components.js.map",
+      "bytes": 960,
+      "sha256": "519da935d52d8f374ddb4ff506ce0af0fe4e02ac0f90bacf2a865099c9394124"
+    },
+    {
+      "path": "genre-home.js",
+      "bytes": 1007,
+      "sha256": "b4100e322f0ba7506b2dbadf85ed132a19506c74e32e17a3151bcb4166e7dd4c"
+    },
+    {
+      "path": "genres.css",
+      "bytes": 4438,
+      "sha256": "281bff5a8c4a34992ab096d382696b28ec93d3102275ab166ab39add2db84c03"
+    },
+    {
+      "path": "index.html",
+      "bytes": 30806,
+      "sha256": "4bbad86c22aff24f7b1a2837f2e586ed8d148100ddfa101ada850f2e5b8f949c"
+    },
+    {
+      "path": "iniciar.cmd",
+      "bytes": 95,
+      "sha256": "48b9e7fe53944e1a3534e4b6fbbc8c5ca7280af5b3a96e24deb3ae43aabfed2e"
+    },
+    {
+      "path": "instrument-samples.js",
+      "bytes": 2679,
+      "sha256": "264e12357bb3e1a8daa151cda474d6cb8534e36272b83ba0ae4ae1d6396934c3"
+    },
+    {
+      "path": "learning-layout.js",
+      "bytes": 8004,
+      "sha256": "a205b1286534ba19ef825d64acfe5eda8e767d8e44c348e84c54e078819f013c"
+    },
+    {
+      "path": "learning-path.js",
+      "bytes": 14977,
+      "sha256": "82a21d4d586ad1ed6923ac89666b326c0c79691b9f06e15985be9fa284deec4e"
+    },
+    {
+      "path": "lesson-data.js",
+      "bytes": 5751,
+      "sha256": "f57b2d2a364181a22236055ddb4fd76dd2273f14d113bde1ba187aa8b4147ff9"
+    },
+    {
+      "path": "local_analyzer.py",
+      "bytes": 5115,
+      "sha256": "b833dcc67c08e0a210413ac65ee5fe6c3bd69db7ae331c5d7714a10988c5a06e"
+    },
+    {
+      "path": "mix-controls.js",
+      "bytes": 7352,
+      "sha256": "3997625b3244da1d9fc740446c32642f42efda89ff4cc6ba0c5b8f216f8d59f3"
+    },
+    {
+      "path": "musician-perspective.js",
+      "bytes": 4121,
+      "sha256": "f0a74f70ca5400e69226a3206eaf1c88692e6f93a4fea0c6ab8d6d71734d152c"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 730,
+      "sha256": "929a5bde2e46031038c1c84b95fbddd566aa4f5e83efa774b6df8f3f21c5a47a"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1656,
+      "sha256": "1501f242a9a0647bd667543842c1eabd75521836d7197fd88e2f603e08c78ad4"
+    },
+    {
+      "path": "practice-data.js",
+      "bytes": 5337,
+      "sha256": "9d3ac71eb01676d3962aa88aeb70795f34462971139a66eef2f7e73adf228ca3"
+    },
+    {
+      "path": "prueba-con-corte.wav",
+      "bytes": 441044,
+      "sha256": "edee66f5dadbb2b80adb7e48a5573db19cf56bebdd1e2f4247f867e1d55eeb95"
+    },
+    {
+      "path": "prueba-pulso-120.wav",
+      "bytes": 441044,
+      "sha256": "ee160089cfed06ffcd0b48d46519d2706da62197e4e658d188b53f922aec3e0c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2090,
+      "sha256": "70b3c6f67d9912bb984355f0839b9c4decc38958ee735a97eef69dfc9000d529"
+    },
+    {
+      "path": "requirements-local-lock.txt",
+      "bytes": 723,
+      "sha256": "9c88ccc6e8c5fb7dc5e2cf73ed7e21d6a9b3c79e2d25d3c5d030b3307ee7ea26"
+    },
+    {
+      "path": "responsive-layout.js",
+      "bytes": 873,
+      "sha256": "82ed607e3bb63cc6da950bc4107fd5226a43d8b443b091a6ebd29cbd0c75335f"
+    },
+    {
+      "path": "responsive.css",
+      "bytes": 8811,
+      "sha256": "a59294e3b35bde37bec671bd3aa6a38ed538509921d57f927b5741ef6c71582e"
+    },
+    {
+      "path": "rhythm-practice.js",
+      "bytes": 20166,
+      "sha256": "685cc7855eea5db465d2887a2a784577814f2691f7aa7e5bb273ce742307ac24"
+    },
+    {
+      "path": "salsa-layers.js",
+      "bytes": 4679,
+      "sha256": "e9d6d83cc217ab9572e7afe17c7df172225d3626ec854a320c212b9f7af7d374"
+    },
+    {
+      "path": "samples/bass.wav",
+      "bytes": 1323054,
+      "sha256": "89f4db8ce1a5a2688e43bdf3dc6675cb187bdc319d028c89494cd21c74cd1fa3"
+    },
+    {
+      "path": "samples/bongo.wav",
+      "bytes": 209356,
+      "sha256": "dd9b6239a151702966a995937f74ac022c9bb950c967277fbd16beaced0c9e1a"
+    },
+    {
+      "path": "samples/clave.wav",
+      "bytes": 191812,
+      "sha256": "bcabe27330761309eb4b4f6207e6e3b4be59815df86449ac05bfb9b81f19efc9"
+    },
+    {
+      "path": "samples/conga-muted.wav",
+      "bytes": 159004,
+      "sha256": "1a24a11a7dae6fdc05405a706768a5b6d96ad534c95bee5d451aa49eedd84855"
+    },
+    {
+      "path": "samples/conga-open.wav",
+      "bytes": 231124,
+      "sha256": "664365ac735d819c69cabbbae8a78d225fa73059e698ad8ca292c46cc03c6961"
+    },
+    {
+      "path": "samples/cowbell.wav",
+      "bytes": 174968,
+      "sha256": "d1f89cb17fe60091deca7ae689009ff03ed79b061b74cd3f6ef5373b5999612c"
+    },
+    {
+      "path": "samples/flute.wav",
+      "bytes": 169494,
+      "sha256": "31dae3abbfa450de1a7dce156e8d966427e7ce562d62151a6a7173d29ef7df88"
+    },
+    {
+      "path": "samples/guiro.wav",
+      "bytes": 267144,
+      "sha256": "fb601ba7bf1decb62c6cbe38f4f74807e4067dcdcc967e028bd0ec75053c2c28"
+    },
+    {
+      "path": "samples/guitar.wav",
+      "bytes": 1012904,
+      "sha256": "238be979be0b8b1efef5293d4de85e314fdf0cbc56c620a4ee9f4594f67b8cc7"
+    },
+    {
+      "path": "samples/manifest.json",
+      "bytes": 5620,
+      "sha256": "59da77bdd1dd94c50484c7666079f90ec64bbd6a97b7059ab5c0afab139f4bf9"
+    },
+    {
+      "path": "samples/piano.wav",
+      "bytes": 2613976,
+      "sha256": "69845de40a38ed6501746520f9f385ae56200a4372faed48178e64a32a75e58c"
+    },
+    {
+      "path": "samples/shaker.wav",
+      "bytes": 39210,
+      "sha256": "025ee4e9e80349cf1d593b02c39e14f17f643fd7f078da49e9b33989c53c0878"
+    },
+    {
+      "path": "samples/TONEJS-LICENSE.txt",
+      "bytes": 1161,
+      "sha256": "a98934bef76e4832a20a3dd8e3928cbd6175eba3a651b43256b5f23ce5cfd501"
+    },
+    {
+      "path": "samples/trombone.wav",
+      "bytes": 170308,
+      "sha256": "802fb21bc0f6e3357e2a80b49714ece45fc06558ac634f1b4c9061a115c2d23d"
+    },
+    {
+      "path": "samples/trumpet.wav",
+      "bytes": 201336,
+      "sha256": "6f1d1f9c9c8a65d9c31af6bfc80b569b1d9f8a1f169f5d421054646fb6495e46"
+    },
+    {
+      "path": "samples/VCSL-LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "path": "samples/violin.wav",
+      "bytes": 212172,
+      "sha256": "5317473e0c3acd60eac63cf641e3947dcd3ab8f99b8fa5d4c7b1e7806f33cbae"
+    },
+    {
+      "path": "samples/voice-coro.wav",
+      "bytes": 44562,
+      "sha256": "0e7f0304adc1ea0d2976592e7407de2282533143fd109901fdb3531480d78cc2"
+    },
+    {
+      "path": "samples/voice-lead.wav",
+      "bytes": 41034,
+      "sha256": "1022f70e15dc8d2ceda8072ede623c55b60d62cb2ec2bb0a8f24d84fc0695083"
+    },
+    {
+      "path": "samples/VSCO2-LICENSE.txt",
+      "bytes": 6555,
+      "sha256": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673"
+    },
+    {
+      "path": "selection-analytics.js",
+      "bytes": 2898,
+      "sha256": "f0a910ca8f3dab6f784d08b09380147ad7f257c5d0b11ec48d94718be9828c5c"
+    },
+    {
+      "path": "server.cjs",
+      "bytes": 6070,
+      "sha256": "b74f6dd7ff297f671389cad42f78a07ee3e6c6b4e9dc05d7f132ac51ec855deb"
+    },
+    {
+      "path": "src/bachata-data.ts",
+      "bytes": 2612,
+      "sha256": "4728b9e44c93a32949f88719564a952fa1d0214a8094a1777b1289deae2788dc"
+    },
+    {
+      "path": "src/bachata-instrument-data.ts",
+      "bytes": 2289,
+      "sha256": "5ff0cfcc36cb5d073fbe0c198b0d9f0b388cc439deba7844ac570e2930d05bf8"
+    },
+    {
+      "path": "src/bachata-instrument-ui.ts",
+      "bytes": 5863,
+      "sha256": "72b2d6ad875455267151837a3b38b4dcdcffa1b1f66aeef8ef2d16e0d1bf0809"
+    },
+    {
+      "path": "src/beat-timeline.ts",
+      "bytes": 1080,
+      "sha256": "861a262731058bd4789ff7301ff8079bc105e3a5662566a28faf860b1015a885"
+    },
+    {
+      "path": "src/contracts.d.ts",
+      "bytes": 2114,
+      "sha256": "6aa1abce25567706fb1b46e5d5dc2d8377933dee27b72c64f2fbd5c9e0ed3efe"
+    },
+    {
+      "path": "src/foot-count-labels.ts",
+      "bytes": 2443,
+      "sha256": "b32e9608a1b237f3194c5cd1be8bafbaf6d8e71241f13e8243c6450e922beb5d"
+    },
+    {
+      "path": "src/footwork.ts",
+      "bytes": 1616,
+      "sha256": "0d4e34b770946615c7dfc3d92907ef5b5e78b3a1cc1e34aa0a09147f798b2b6b"
+    },
+    {
+      "path": "src/genre-home.ts",
+      "bytes": 752,
+      "sha256": "9be92174f54acd30bfe0f493f6ac9b825104fe959fef2719f0c60e3430f3700c"
+    },
+    {
+      "path": "src/musician-perspective.ts",
+      "bytes": 3842,
+      "sha256": "7dadcfd1361ae37b4032d1d89ecff528309f5c631fa8715b78598520f0d8d994"
+    },
+    {
+      "path": "src/selection-analytics.ts",
+      "bytes": 2756,
+      "sha256": "fd44a8557c55f9d8e6e66b48a63ef5a4364858be11e569bc4f3732cf6c9ac414"
+    },
+    {
+      "path": "src/view-components.ts",
+      "bytes": 1174,
+      "sha256": "e3c51a0a7da3e99b07f98ddace59627d99fdf65aeb6504b4fdffcaa19dddee80"
+    },
+    {
+      "path": "style.css",
+      "bytes": 42617,
+      "sha256": "fc4a612bbb8488805c4f001cecfb017d869d91638d266187150fa89c2899217d"
+    },
+    {
+      "path": "test-analytics.cjs",
+      "bytes": 1906,
+      "sha256": "9e9949504080bb9982734600f2089e7e08f9f3309e0ab0a1d5d47734b24aedb3"
+    },
+    {
+      "path": "test-bachata-instruments.cjs",
+      "bytes": 910,
+      "sha256": "7b79da80c41980509a6befeb20aa6bb8320f395896a45c1a2271ee7a6cb6ae62"
+    },
+    {
+      "path": "test-bachata.cjs",
+      "bytes": 889,
+      "sha256": "f0a31a046f036f609bf5da13c1b8b0c08a92dba35fd0fdd49667f67486d6632e"
+    },
+    {
+      "path": "test-backend.cjs",
+      "bytes": 1214,
+      "sha256": "e266de7b884aebc90d4fffbbc910051461bd4ba15ff2f056dcb4ed88c0baede6"
+    },
+    {
+      "path": "test-evidence.cjs",
+      "bytes": 1402,
+      "sha256": "314a3e429bca25dab76fb0eea5f7cd3c2eb77859da4aa75d2007799e74198d2a"
+    },
+    {
+      "path": "test-feet.cjs",
+      "bytes": 2381,
+      "sha256": "92d57b0090df57e9398a76001461e605270f85fda509cdc1579a6346d2f277db"
+    },
+    {
+      "path": "test-foot-count-labels.cjs",
+      "bytes": 839,
+      "sha256": "c78cf8f43621102c5805d5e893dc638dbce3d4cc3da21834065441398d8d4e3d"
+    },
+    {
+      "path": "test-layers.cjs",
+      "bytes": 802,
+      "sha256": "bf19df8a0b9107a1cd95e1018ab67de9168be6599578215314d257bf7edb6a26"
+    },
+    {
+      "path": "test-lessons.cjs",
+      "bytes": 1273,
+      "sha256": "c04138ee8d076dfacde7bbcb02c186307cd13c6f3c49457b9b156f28f004b834"
+    },
+    {
+      "path": "test-practice.cjs",
+      "bytes": 2832,
+      "sha256": "1446a1051d4d89c0b56f54774e2869450d98f02e3706dc85a4356efa490b2908"
+    },
+    {
+      "path": "test-rhythm.cjs",
+      "bytes": 1187,
+      "sha256": "0863f0b3fa5afdd2785bef3ae14cb5a8008c5bcd05aaebe775e1e3c30ec00ab5"
+    },
+    {
+      "path": "test-samples.cjs",
+      "bytes": 895,
+      "sha256": "b8c351772caaa5e20f5af9e4f8c3ce3f27c6528050c202cbbfa15a264edd401b"
+    },
+    {
+      "path": "test-timeline.cjs",
+      "bytes": 1937,
+      "sha256": "b63732dbc0e8f41b0adbfddb37204dc6568310675ac60fd1dff8e73468c7aa75"
+    },
+    {
+      "path": "test-typescript.cjs",
+      "bytes": 1251,
+      "sha256": "24e24b25447d2d3302dd69d00f1d642737ecc01f543cb3f6557467724d7e5350"
+    },
+    {
+      "path": "test-video-search.cjs",
+      "bytes": 1857,
+      "sha256": "f6f7749421cc9dc8daf0fdc915faf1667ab8106085256d825dab580c21f7abfb"
+    },
+    {
+      "path": "test.cjs",
+      "bytes": 1218,
+      "sha256": "c3657b1c609a9efa1739a8e55b103bdd0487282ff92eedf7030f2769ef4c16e3"
+    },
+    {
+      "path": "tools/build-static.cjs",
+      "bytes": 2983,
+      "sha256": "0b6971f4f41fe3a3828fbafeb70ecce5dde7a710626f81e2f7ff0a217113a849"
+    },
+    {
+      "path": "tools/build.cjs",
+      "bytes": 954,
+      "sha256": "9c61b36b68a673d89a2ce835f697fadd08ecaade29445f5bdc32def6511d58f5"
+    },
+    {
+      "path": "tools/refresh-package.cjs",
+      "bytes": 1139,
+      "sha256": "b33f92953f8ef299fc05ef821a6480e4090ca785e989d55881fe8ebbd2213d15"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 343,
+      "sha256": "38bd4c849345b8c4ebcef25463d1b739689e16ed6e41b2072b6b0d8ad3709aac"
+    },
+    {
+      "path": "unified-feet.js",
+      "bytes": 3575,
+      "sha256": "04dd09db35c17a15aa0cb9310cf094557c27fb08edf71ecc9f8e9e489fcc2572"
+    },
+    {
+      "path": "video-library.js",
+      "bytes": 13322,
+      "sha256": "2e33633cb8e6f94f8dc94b8f4b9cf13ffae690249cdc6305ded0352d5bcbdda2"
+    },
+    {
+      "path": "video-search.cjs",
+      "bytes": 4562,
+      "sha256": "2e4522da87c810dfc7805bc8984d3bca0281a7574ea9926170b04e79d90479e1"
+    },
+    {
+      "path": "view-components.js",
+      "bytes": 1092,
+      "sha256": "4c05facc2cd57624703c48b78c3dc039dbd71ae228f613bae525dd552531ee90"
+    },
+    {
+      "path": "workshop.css",
+      "bytes": 9504,
+      "sha256": "03e1dae43e5ca1423619d4543aed716ca0a3f7f9dd83ce6b97acfaf61a3d2fb4"
+    }
+  ]
+}

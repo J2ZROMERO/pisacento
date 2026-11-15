@@ -1,0 +1,1 @@
+const fs=require('node:fs');const {estimate}=require('../analysis-worker.js');const b=fs.readFileSync(process.argv[2]);const f=new Float32Array(b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength));console.log(JSON.stringify(estimate(f,11025)));

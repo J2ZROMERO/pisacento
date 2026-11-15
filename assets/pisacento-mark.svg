@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>Pisacento</title>
+  <rect width="64" height="64" rx="18" fill="#203D65"/>
+  <path d="M15 44V29a5 5 0 0 1 10 0v15a5 5 0 0 1-10 0Z" fill="#F1EEE5"/>
+  <path d="M29 36V22a5 5 0 0 1 10 0v14a5 5 0 0 1-10 0Z" fill="#F1EEE5"/>
+  <path d="M43 44v-8a4 4 0 0 1 8 0v8a4 4 0 0 1-8 0Z" fill="#F1EEE5"/>
+  <circle cx="47" cy="18" r="5" fill="#CB6C4C"/>
+</svg>

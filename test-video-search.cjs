@@ -1,0 +1,9 @@
+const assert=require('node:assert/strict');const {query,search}=require('./video-search.cjs');
+(async()=>{assert.match(query('basic','on2'),/basic step forward back on2/);assert.throws(()=>query('unknown','on2'));let called;const result=await search({step:'basic',timing:'on2',exclude:['abcdefghijk'],pageToken:'page2'},'test-key',async url=>{called=url;return {ok:true,json:async()=>({items:[{id:{videoId:'abcdefghijk'},snippet:{title:'Seen',channelTitle:'A'}},{id:{videoId:'12345678901'},snippet:{title:'Basic On2',channelTitle:'B'}}],nextPageToken:'page3'})}});assert.equal(called.hostname,'www.googleapis.com');assert.equal(called.searchParams.get('pageToken'),'page2');assert.equal(result.videos.length,1);assert.equal(result.videos[0].video,'12345678901');assert.equal(result.nextPageToken,'page3');await assert.rejects(()=>search({step:'basic',timing:'on2'},'bad',async()=>({ok:false,status:403})),/clave/);console.log('Búsqueda: conserva consulta, excluye videos vistos, pagina y comunica errores. Prueba simulada; sin clave no se consultó la API real.');})();
+const {parsePublic}=require('./video-search.cjs');
+const fixture='<script>var ytInitialData = '+JSON.stringify({contents:[{videoRenderer:{videoId:'abcdefghijk',title:{runs:[{text:'Basic On2'}]},ownerText:{runs:[{text:'Teacher'}]}}}]})+';</script>';
+assert.equal(parsePublic(fixture).length,1);assert.equal(parsePublic(fixture,['abcdefghijk']).length,0);assert.throws(()=>parsePublic('<html>Consent</html>'),/resultados/);
+const figures=require('./lesson-data.js').figures;
+assert.equal(new Set(figures.map(f=>f.id)).size,figures.length);
+assert(figures.some(f=>f.id==='hammerlock'));
+for(const f of figures){const timing=f.family==='casino'?'casino':'on2';assert.match(query(f.id,timing),new RegExp(f.query));assert.throws(()=>query(f.id,f.family==='casino'?'on2':'casino'));}

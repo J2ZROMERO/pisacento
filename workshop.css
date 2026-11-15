@@ -1,0 +1,79 @@
+/* Pisacento: a rehearsal notebook. Flat paper, ink, editorial type; no asset fonts. */
+:root{--paper:#f1eee5;--sheet:#faf8f1;--ink:#202d40;--muted:#666c70;--rule:#c7c7bd;--brick:#a73f30;--blue:#203d65;--green:var(--blue);--line:var(--rule);--bg:var(--paper);--lime:#e7debd}
+body{background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:14px}
+header{height:76px;border-bottom:1px solid var(--ink);padding:0 20px;max-width:1400px;margin:auto}
+.brand{gap:10px;font:italic 700 26px/1 Georgia,"Times New Roman",serif;letter-spacing:-1px;color:var(--ink)}
+.brand img{width:32px;height:32px;flex-basis:32px}
+header .header-note{font-family:ui-monospace,monospace;font-size:10px;letter-spacing:1px;color:var(--muted)}
+header .local{font-size:10px;color:var(--muted)}header .local b{background:var(--brick);width:5px;height:5px}
+main{max-width:1180px;padding:0 16px}
+.panel.rhythm-practice{background:transparent;border:0;border-radius:0;padding:28px 0 0;margin:0;box-shadow:none}
+.ux-page-title{padding:0 0 22px;position:relative}
+.ux-page-title>.section-label{color:var(--brick);font-family:ui-monospace,monospace;letter-spacing:1.3px;font-size:10px}
+.ux-page-title h2{font:normal 43px/1.08 Georgia,"Times New Roman",serif;letter-spacing:-1.8px;margin:12px 0}
+.ux-page-title p{font-size:13px;color:var(--muted);max-width:490px;margin:0;line-height:1.7}
+.ux-setup{background:none;border:0;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);border-radius:0;padding:18px 0;margin:0 0 26px}
+.ux-setup-heading{margin-bottom:16px;gap:8px}.ux-setup-heading strong{font-size:11px;letter-spacing:.06em;text-transform:uppercase}.ux-setup-heading span{font-size:11px;color:var(--muted)}
+.ux-setup-fields{gap:14px}.ux-setup-fields label{font-size:11px;font-weight:600;color:var(--muted)}
+button,select,input:not([type=checkbox]):not([type=range]){border-radius:3px;border-color:var(--rule);color:var(--ink);box-shadow:none}
+select,input:not([type=checkbox]):not([type=range]){background:var(--sheet)}
+button{background:transparent;font-weight:550}button:hover{background:#e5e0d2;border-color:var(--ink)}
+button.primary,#rpPlay{background:var(--blue);border-color:var(--blue);color:#fff;border-radius:3px}
+button.primary:hover,#rpPlay:hover{background:#152e50}
+input[type=checkbox]{accent-color:var(--blue)}input[type=range]{accent-color:var(--blue)}
+:focus-visible{outline:3px solid var(--brick);outline-offset:4px}
+.ux-inline-help,.compact-audio-options{background:transparent;border:0;border-bottom:1px solid var(--rule);border-radius:0;margin:12px 0 0}
+.ux-inline-help>summary,.compact-audio-options>summary{padding:10px 0;min-height:44px;font-size:11px;color:var(--muted);font-weight:500}
+.ux-disclosure[open]{padding:0 0 12px}.ux-disclosure[open]>summary{margin:0 0 12px}
+.ux-workspace{gap:22px}
+.ux-roadmap{background:none;padding:0;border-radius:0;position:static;border-bottom:1px solid var(--rule);padding-bottom:20px}
+.ux-roadmap>.section-label{font:10px ui-monospace,monospace;color:var(--brick);letter-spacing:.08em}
+.ux-roadmap h3{font-size:14px;margin:10px 0 4px}.ux-roadmap>p{font-size:11px;margin:6px 0;color:var(--muted)}
+.ux-roadmap #learningLessons{display:grid;grid-template-columns:1fr;margin:14px 0 0;gap:0}
+.ux-roadmap #learningLessons button{display:grid;grid-template-columns:24px 1fr;align-items:center;gap:8px;position:relative;border:0;border-top:1px solid var(--rule);border-radius:0;padding:13px 8px;min-height:52px;font-size:12px;text-align:left;line-height:1.4}
+.ux-roadmap #learningLessons button svg{display:none}
+.ux-roadmap #learningLessons .learning-step-number{position:static;transform:none;display:grid;place-items:center;background:none;border-radius:0;color:var(--muted);width:20px;height:20px;font:11px ui-monospace,monospace}
+.ux-roadmap #learningLessons [aria-current=step]{background:var(--blue);color:white;border-color:var(--blue);border-left:3px solid var(--brick);padding-left:5px}
+.ux-roadmap #learningLessons [aria-current=step] .learning-step-number{background:none;color:white}
+.ux-lesson-main .learning-current{border:0;border-radius:0;padding:0 0 23px;margin:0;background:transparent;box-shadow:none}
+#learningProgress{font:10px ui-monospace,monospace;letter-spacing:.08em;color:var(--brick)}
+.ux-lesson-main .learning-current h3{font:normal 30px/1.15 Georgia,"Times New Roman",serif;letter-spacing:-.6px;margin:10px 0 18px}
+.ux-lesson-main .learning-current>p{font-size:13px;line-height:1.75;max-width:700px}
+#learningGoal{color:var(--muted);margin-bottom:15px}
+#learningTask{border-left:2px solid var(--brick);padding-left:14px;margin-bottom:0}
+.ux-live{border:0;border-top:1px solid var(--ink);background:none;border-radius:0;padding:22px 0 0;margin:0;box-shadow:none}
+.ux-live-title .section-label{font:10px ui-monospace,monospace;color:var(--muted);letter-spacing:.08em}
+.ux-live-title h3{font-size:19px;font-weight:600;letter-spacing:-.4px;margin:8px 0 18px}
+.ux-transport{gap:9px;margin:10px 0}.ux-transport label{font-size:10px;color:var(--muted)}
+.count-basics{background:#e9e4d6;border-radius:0;padding:12px 14px;border-left:3px solid var(--blue);font-size:12px;line-height:1.7}
+.mix-quick{border:0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);border-radius:0;background:none;padding:18px 0;margin:20px 0}
+.mix-heading strong{font-size:13px}.mix-heading span{font:10px ui-monospace,monospace;color:var(--muted)}
+.mix-select-label{font-size:11px;color:var(--muted);max-width:540px}.mix-select-label select{margin-top:6px}
+.mix-quick>.small{max-width:560px;font-size:11px;line-height:1.6;color:var(--muted)}
+.mix-card-list{display:flex;flex-wrap:wrap;gap:7px}
+.mix-instrument{border:1px solid var(--rule);border-radius:3px;background:var(--sheet);min-height:88px;flex:0 0 96px}
+.mix-instrument[aria-pressed=true]{background:#e3e9ed;color:var(--blue);border-color:var(--blue)}
+.mix-instrument.mix-strike{background:#f2ce8c!important;border-color:var(--brick)!important;box-shadow:none!important}
+.mix-more{border:0;background:none}.mix-more summary{font-size:11px;font-weight:500;padding:8px 0}.mix-legend{font-size:10px;color:var(--muted)}
+.rp-row-title{font:9px ui-monospace,monospace;letter-spacing:.06em;color:var(--muted)}
+.rhythm-matrix-scroll{border-radius:0}
+.rp-grid>div,.rp-grid>button{border-radius:2px;background:var(--sheet);border-color:var(--rule)}
+.rp-grid .rp-now{background:#dde5ec!important;border-color:var(--blue)!important;color:var(--blue)}
+.matrix-scroll-hint{font-size:10px;color:var(--muted)}
+.unified-feet{border:0;border-top:1px solid var(--ink);border-radius:0;background:none;padding:20px 0 0;margin-top:24px}
+.unified-feet h4{font:normal 25px Georgia,"Times New Roman",serif;letter-spacing:-.3px}
+.foot-label-convention{border:0;border-bottom:1px solid var(--rule);padding:10px 0;border-radius:0;background:none}
+.foot-label-convention>label{font-size:11px}.foot-label-convention p{font-size:10px;color:var(--muted)}
+.foot-label-convention summary{font-size:11px;color:var(--muted)}
+.feet-floor{border:1px solid #bbc1bf;border-radius:2px;background-color:var(--sheet);background-image:linear-gradient(#203d6509 1px,transparent 1px),linear-gradient(90deg,#203d6509 1px,transparent 1px);background-size:28px 28px}
+.feet-floor #rpOwnRole,.feet-floor #rpPartnerRole{font:10px ui-monospace,monospace;color:var(--blue)}
+.drawn-foot{color:#8b959c}.drawn-foot.instrument-accent{filter:none;color:var(--blue)}
+.floor-center{border-color:var(--brick);opacity:.65}.floor-label{color:var(--muted)}
+.feet-actions p{color:var(--blue);font-family:ui-monospace,monospace}
+.lesson-bottom-navigation{border-top:1px solid var(--ink);padding:18px 0;margin-top:26px;gap:8px}
+.lesson-bottom-navigation button{font-size:12px}
+footer{background:none;border-top:1px solid var(--ink);border-radius:0;margin-top:48px;padding:24px 0;color:var(--muted);gap:16px}
+footer>.brand{font-size:22px}footer>span{font-size:10px;letter-spacing:.02em}
+@media(min-width:600px){header{padding-inline:32px}main{padding-inline:26px}.ux-page-title h2{font-size:60px}.ux-roadmap #learningLessons{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.ux-roadmap #learningLessons button{border:1px solid var(--rule);padding:14px 10px}.ux-transport{display:flex;align-items:end}.ux-lesson-main .learning-current,.ux-live{padding-inline:0}.ux-live{padding-top:22px}.ux-transport label{margin-left:auto}.mix-heading{flex-direction:row;align-items:center}}
+@media(min-width:960px){header{padding-inline:42px}main{padding-inline:40px}.panel.rhythm-practice{padding-top:42px}.ux-page-title{padding-bottom:30px}.ux-page-title h2{font-size:68px}.ux-page-title::after{content:'';position:absolute;right:4px;top:22px;width:115px;height:50px;border-top:2px solid var(--brick);border-bottom:2px solid var(--brick);transform:rotate(-6deg);opacity:.8}.ux-setup{padding:20px 0;margin-bottom:32px}.ux-setup-fields{grid-template-columns:1.4fr 1fr 1fr}.ux-workspace{grid-template-columns:180px minmax(0,1fr);gap:42px}.ux-roadmap{position:sticky;top:24px;border:0}.ux-roadmap #learningLessons{grid-template-columns:1fr;gap:0}.ux-roadmap #learningLessons button{border:0;border-top:1px solid var(--rule);padding:15px 8px}.ux-roadmap #learningLessons [aria-current=step]{border-left:3px solid var(--brick);padding-left:5px}.ux-lesson-main .learning-current h3{font-size:34px}.ux-lesson-main .learning-current{padding-bottom:28px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}

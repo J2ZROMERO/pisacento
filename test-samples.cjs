@@ -1,0 +1,4 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto'),samples=require('./instrument-samples.js');
+const manifest=require('./samples/manifest.json');
+for(const item of manifest){const bytes=fs.readFileSync(path.join(__dirname,'samples',item.file));assert.equal(bytes.toString('ascii',0,4),'RIFF');assert.equal(bytes.toString('ascii',8,12),'WAVE');assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),item.sha256)}
+assert.equal(samples.voice('son23',2),'clave');assert.equal(samples.voice('strong',0),'cowbell');assert.equal(samples.voice('conga',2),'conga-muted');assert.equal(samples.voice('conga',6),'conga-open');assert.equal(samples.voice('bass',3),'bass');assert.equal(samples.voice('piano',0),'piano');console.log('Muestras: banco WAV verificado y selección de instrumentos/articulaciones correcta.');
