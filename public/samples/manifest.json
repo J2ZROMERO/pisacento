@@ -1,0 +1,23 @@
+[
+  {
+    "file": "clave.wav",
+    "url": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Claves/Claves1_Hit_v2_rr1_Mid.wav",
+    "license": "CC0-1.0",
+    "credit": "Versilian Community Sample Library / Versilian Studios",
+    "sha256": "bcabe27330761309eb4b4f6207e6e3b4be59815df86449ac05bfb9b81f19efc9"
+  },
+  {
+    "file": "cowbell.wav",
+    "url": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Cowbells/Cowbell1_Normal_v2_rr1_Mid.wav",
+    "license": "CC0-1.0",
+    "credit": "Versilian Community Sample Library / Versilian Studios",
+    "sha256": "d1f89cb17fe60091deca7ae689009ff03ed79b061b74cd3f6ef5373b5999612c"
+  },
+  {
+    "file": "conga-open.wav",
+    "url": "https://raw.githubusercontent.com/sgossner/VCSL/master/Membranophones/Struck%20Membranophones/Conga/Conga_HitN_v3_rr1_Sum.wav",
+    "license": "CC0-1.0",
+    "credit": "Versilian Community Sample Library / Versilian Studios",
+    "sha256": "664365ac735d819c69cabbbae8a78d225fa73059e698ad8ca292c46cc03c6961"
+  }
+]

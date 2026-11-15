@@ -1,31 +1,37 @@
-# Pisacento · Conteo de salsa
+# Pisacento
 
-La interfaz activa se centra exclusivamente en practicar el conteo de salsa: seguir el pulso, pisar el básico y mantener el conteo al cambiar de sonido. Entrada directa, sin selector de género, videoteca, explicación musical ampliada ni seguimiento de progreso.
+Salsa counting practice: Break on 1 / Break on 2, individual or partner view, lead/follower, foot animation, and three verified instrument samples.
 
-## Ejecutar
+## Run locally
 
-Requiere Node.js 22 (fijado en `.node-version`).
+Install Node.js 22, then run from this directory:
 
-```powershell
+```sh
 npm ci
-$env:PORT=4320
-npm start
+npm run dev
 ```
 
-Abre http://127.0.0.1:4320 . Validación: `npm run check` y `npm test`.
+Open http://127.0.0.1:4320 . Stop with Ctrl+C. After editing source, restart `npm run dev` to rebuild. To use a different port in PowerShell: `$env:PORT=4321; npm run dev`.
 
-## Código
+## Cloudflare Pages from GitHub
 
-Edita los módulos migrados en `src/`; `npm run build` genera sus archivos JavaScript. `learning-path.js` define los tres ejercicios. `src/genre-home.ts` conserva su nombre por compatibilidad, pero ahora inicia únicamente salsa. Los controladores de salsa heredados siguen en JavaScript.
+Push this directory as the repository root. Connect the repository in Cloudflare **Pages**, choosing framework **None**, production branch **main**, build command **npm run build**, output directory **dist**, and an empty root directory. Cloudflare installs npm dependencies and compiles TypeScript before publishing `dist`. Every push to main triggers a deployment. No server or Python is needed in production.
 
-## Documentación histórica
+Optional production build variable: `GA4_MEASUREMENT_ID=G-…`. Without it analytics stays off. See [analytics setup](docs/ANALYTICS.md).
 
-La documentación en `docs/` conserva el razonamiento y desarrollo anterior. Sus descripciones de Bachata, videos y perspectiva musical ya no describen funciones visibles. Los módulos históricos se conservan como código, pero no se cargan en la página activa. Las licencias y los créditos de los archivos de audio permanecen en `samples/`.
+## Structure
 
-## Publicación e identidad
+- `src/`: browser TypeScript source; edit here.
+- `public/`: HTML, CSS, original SVG, three WAV samples and their license/manifest.
+- `tools/`: static build and local preview server.
+- `tests/`: counting, roles, evidence, foot labels and analytics regression checks.
+- `dist/`: generated JavaScript and deployable files, excluded from Git.
 
-Para desplegar desde GitHub, sube esta carpeta como raíz del repositorio y conecta el repositorio a **Cloudflare Pages**. Framework: **None**; comando: `npm run build:static`; salida: `dist`; rama: `main`. Cloudflare compila cada push. `dist` y `node_modules` no se suben a Git. No se necesita un comando de despliegue de Workers.
+Browsers execute the JavaScript compiled into `dist/js`; there are no duplicate JavaScript source files. Some migrated UI controllers temporarily use `@ts-nocheck`; domain behavior is covered by the regression checks. There is no live song analysis, Bachata, video search or unused audio bank.
 
-La variable opcional de compilación `GA4_MEASUREMENT_ID` activa las métricas de selecciones con tu identificador `G-…`. Sin ese valor, la configuración por defecto mantiene las métricas desactivadas. Consulta [ANALYTICS.md](docs/ANALYTICS.md).
+## Validate
 
-`npm run build:static` prepara `dist/` para Cloudflare Pages. Consulta [CLOUDFLARE.md](docs/CLOUDFLARE.md) y [la revisión preliminar de identidad/licencias](docs/AUDITORIA_IDENTIDAD.md). Pisacento es un nombre propuesto, no una marca cuya disponibilidad registral esté confirmada.
+```sh
+npm run check
+npm test
+```

@@ -3,18 +3,17 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node server.cjs",
-    "check": "npm run typecheck && node --check genre-home.js && node --check bachata-instruments.js && node --check bachata-data.js && node --check app.js && node --check footwork.js && node --check beat-timeline.js && node --check analysis-worker.js && node --check server.cjs && node --check lesson-data.js && node --check video-library.js && node --check video-search.cjs && node --check practice-data.js && node --check expert-content.js && node --check evidence-data.js && node --check evidence-ui.js && node --check responsive-layout.js && node --check unified-feet.js && node --check mix-controls.js && node --check learning-layout.js && node --check learning-path.js && node --check rhythm-practice.js && node --check instrument-samples.js && node --check salsa-layers.js",
-    "test:backend": "node test-backend.cjs",
-    "test": "node test-foot-count-labels.cjs && node test-typescript.cjs && node test-bachata-instruments.cjs && node test-bachata.cjs && node test.cjs && node test-rhythm.cjs && node test-feet.cjs && node test-timeline.cjs && node test-lessons.cjs && node test-video-search.cjs && node test-practice.cjs && node test-samples.cjs && node test-layers.cjs && node test-evidence.cjs",
+    "dev": "npm run build && node tools/serve.cjs",
+    "start": "npm run dev",
     "build": "node tools/build.cjs",
-    "typecheck": "tsc --noEmit",
-    "prestart": "npm run build",
-    "pretest": "npm run build",
-    "inventory": "node tools/refresh-package.cjs",
-    "build:static": "npm run build && node tools/build-static.cjs"
+    "build:static": "npm run build",
+    "check": "tsc --noEmit",
+    "test": "npm run build && node tests/test-practice.cjs && node tests/test-evidence.cjs && node tests/test-foot-count-labels.cjs && node tests/test-analytics.cjs"
   },
   "devDependencies": {
     "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }

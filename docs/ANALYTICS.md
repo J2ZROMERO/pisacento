@@ -3,8 +3,8 @@
 Cloudflare Web Analytics measures visits, not custom selection events. This app includes Google Analytics 4 event instrumentation, disabled until configured.
 
 1. Create a GA4 property and Web data stream for the published website.
-2. Copy its Measurement ID (`G-…`) into `analytics-config.js`.
-3. Run `npm run build:static` and publish `dist` again. Alternatively edit `analytics-config.js` inside the prepared upload ZIP before uploading.
+2. Set its Measurement ID (`G-…`) as the `GA4_MEASUREMENT_ID` build environment variable in Cloudflare.
+3. Run `npm run build:static` and publish `dist` again. 
 4. In GA4 Admin → Data display → Custom definitions, create event-scoped dimensions for `selection_type`, `selection_value`, `counting_style`, `practice_mode`, `dance_role`, `instrument`, and `enabled`.
 5. In Explore, create a table with selection_type and selection_value as rows, Event count as the value, and filter Event name = practice_selection. This ranks choices. For instruments filter Event name = instrument_toggle, enabled = on, and use instrument as the row.
 
