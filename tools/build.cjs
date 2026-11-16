@@ -14,7 +14,7 @@ if(id&&!/^G-[A-Z0-9]+$/.test(id))throw Error('Invalid GA4_MEASUREMENT_ID');
 fs.writeFileSync(path.join(out,'analytics-config.js'),'window.PisacentoAnalyticsConfig = '+JSON.stringify({measurementId:id})+';\n');
 // Manual Web Analytics installation; use instead of Pages automatic injection.
 // This is the public site token from the JS snippet, never an API key.
-const cfToken=process.env.CLOUDFLARE_WEB_ANALYTICS_TOKEN||'';
+const cfToken=process.env.CLOUDFLARE_WEB_ANALYTICS_TOKEN??'14e00f05329c4bf8873b1d538d978637';
 if(cfToken){
  if(!/^[a-f0-9]{32}$/i.test(cfToken))throw Error('CLOUDFLARE_WEB_ANALYTICS_TOKEN must be the 32-character public site token from JS Snippet installation, not an API key.');
  const page=path.join(out,'index.html');

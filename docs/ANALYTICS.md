@@ -2,7 +2,9 @@
 
 ## Cloudflare visitors and page views
 
-Choose ONE installation method:
+The public token supplied by the owner for pisacento.pages.dev is configured in `tools/build.cjs`. The default build now includes the manual beacon. No environment variable is required. Disable Pages automatic injection to avoid duplicate tracking. An explicitly empty `CLOUDFLARE_WEB_ANALYTICS_TOKEN` omits the manual beacon.
+
+For a different site, choose ONE installation method:
 
 - Automatic: Workers & Pages → pisacento → Metrics → Enable Web Analytics, then redeploy production. Pages adds its beacon to the HTML served to visitors.
 - Manual: copy the public `token` value from Web Analytics → your site → JS Snippet installation. Set `CLOUDFLARE_WEB_ANALYTICS_TOKEN` as a production **build** environment variable (32 hexadecimal characters), then redeploy. The build includes the beacon in `dist/index.html`. Do not also enable automatic injection. This public site token is not a Cloudflare API credential.
