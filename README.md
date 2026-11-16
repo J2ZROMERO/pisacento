@@ -17,7 +17,9 @@ Open http://127.0.0.1:4320 . Stop with Ctrl+C. After editing source, restart `np
 
 Push this directory as the repository root. Connect the repository in Cloudflare **Pages**, choosing framework **None**, production branch **main**, build command **npm run build**, output directory **dist**, and an empty root directory. Cloudflare installs npm dependencies and compiles TypeScript before publishing `dist`. Every push to main triggers a deployment. No server or Python is needed in production.
 
-Optional production build variable: `GA4_MEASUREMENT_ID=G-…`. Without it analytics stays off. See [analytics setup](docs/ANALYTICS.md).
+**Cloudflare visitor metrics:** enable Web Analytics in the Pages project and redeploy so Cloudflare injects its beacon. Alternatively, set the production build variable `CLOUDFLARE_WEB_ANALYTICS_TOKEN` to the public token from “JS Snippet installation”; the build will include the beacon. Choose one installation method to avoid duplicate tracking. Cloudflare does not read metrics from this README or GitHub; the visitor's browser sends them through that script.
+
+**Selection metrics (Google Analytics):** optional production build variable `GA4_MEASUREMENT_ID=G-…`. Without it only GA4 tracking stays off; Cloudflare visitor metrics work independently. See [analytics setup](docs/ANALYTICS.md).
 
 ## Structure
 

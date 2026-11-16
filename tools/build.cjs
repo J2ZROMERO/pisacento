@@ -12,5 +12,15 @@ for(const entry of JSON.parse(fs.readFileSync(path.join(out,'samples/manifest.js
 const id=process.env.GA4_MEASUREMENT_ID||'';
 if(id&&!/^G-[A-Z0-9]+$/.test(id))throw Error('Invalid GA4_MEASUREMENT_ID');
 fs.writeFileSync(path.join(out,'analytics-config.js'),'window.PisacentoAnalyticsConfig = '+JSON.stringify({measurementId:id})+';\n');
+// Manual Web Analytics installation; use instead of Pages automatic injection.
+// This is the public site token from the JS snippet, never an API key.
+const cfToken=process.env.CLOUDFLARE_WEB_ANALYTICS_TOKEN||'';
+if(cfToken){
+ if(!/^[a-f0-9]{32}$/i.test(cfToken))throw Error('CLOUDFLARE_WEB_ANALYTICS_TOKEN must be the 32-character public site token from JS Snippet installation, not an API key.');
+ const page=path.join(out,'index.html');
+ const beacon=`<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='${JSON.stringify({token:cfToken})}'></script>`;
+ fs.writeFileSync(page,fs.readFileSync(page,'utf8').replace('</body>',beacon+'</body>'));
+ console.log('Cloudflare Web Analytics: public beacon included.');
+}else console.log('Cloudflare Web Analytics: use Pages automatic injection, or configure CLOUDFLARE_WEB_ANALYTICS_TOKEN.');
 fs.writeFileSync(path.join(out,'_headers'),'/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n');
 console.log('Built salsa app in dist/ from TypeScript and public assets.');
